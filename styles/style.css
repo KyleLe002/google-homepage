@@ -1,0 +1,39 @@
+body {
+  margin: auto;
+  max-width: 500px;
+}
+
+#googlePhoto {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+form {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#headerLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#headerRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  dipslay: flex;
+  justify-content: space-between;
+}
+
+#searchBar {
+  width: 500px;
+  height: 30px;
+  margin: 20px;
+}
