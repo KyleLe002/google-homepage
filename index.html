@@ -7,36 +7,51 @@
   </head>
   <body>
     <header>
-      <div id="headerLeft">
-        <a href="#">About</a>
-        <a href="#">Store</a>
+      <div class="headerContainer">
+        <div id="headerLeft">
+          <a href="#">About</a>
+          <a href="#">Store</a>
+        </div>
+        <div id="headerRight">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <a href="#">Google Apps</a>
+          <a href="#"><img id="accountPhoto" src="images/default-profile-photo.png"></a>
+        </div>
       </div>
-      <div id="headerRight">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <a href="#">Google Apps</a>
-        <a href="#"><img id="accountPhoto" src="images/default-profile-photo.png"></a>
-      </div>
+      
       
     </header>
     
     <br>
 
-    <img id="googlePhoto" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
-    <form> 
-      <input type="search" id="searchBar"><br>
-      <button type="submit" name="Google Search">Google Search</button>
-      <button type="submit" name="I'm Feeling Lucky">I'm Feeling Lucky</button>
-    </form>
+    <div class="container">
+      <img id="googlePhoto" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
+      <form> 
+        <input type="search" id="searchBar"><br>
+        <button type="submit" name="Google Search">Google Search</button>
+        <button type="submit" name="I'm Feeling Lucky">I'm Feeling Lucky</button>
+      </form>
+    </div>
+    
 
     <footer>
-      <a href="#">Advertising</a>
-      <a href="#">Business</a>
-      <a href="#">How Search Works</a>
-      <a href="#">Carbon neutral since 2007</a>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-      <a href="#">Settings</a>
+      <div class="footerContainer">
+        <div class="footerContainer1">
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search Works</a>
+        </div>
+        <div class="footerContainer2">
+          <a href="#">Carbon neutral since 2007</a>
+        </div>
+        <div class="footerContainer3">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+        
+      </div>
     </footer>
 
     <script src="scripts/main.js"></script>
